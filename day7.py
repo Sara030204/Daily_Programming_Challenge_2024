@@ -10,7 +10,6 @@ def measure_trap_water(input):
     
     while i<n :
         j=i+1
-        min_element=input[i]
         max_element_index=0
         gap=0
 
@@ -24,6 +23,7 @@ def measure_trap_water(input):
         if max_element_index==0:
             i=i+1
             continue
+        
         water_drop=(gap*input[i])-sum(input[i+1:max_element_index])
         water+=water_drop
         i=max_element_index
