@@ -1,7 +1,7 @@
 # count total substring with k distict character
 
-s="pqpqs"
-k=2
+s="aabacbebebe"
+k=3
 n=len(s)
 
 def count_substr(s,k):
