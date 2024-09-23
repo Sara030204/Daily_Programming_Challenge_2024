@@ -1,6 +1,6 @@
 #  group all the strings that are anagrams of each other
 
-strs= ["abc", "def", "ghi"]
+strs= ["abc", "def", "ghi","tan","ant2"]
 group_anagrams=[]
 
 while strs:
